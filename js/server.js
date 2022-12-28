@@ -103,6 +103,7 @@ const updateHoroscope = () => {
             break;
     }
     let message = document.getElementById('message');
+    message.setAttribute('display', 'block');
     message.innerHTML = randomHoroscope(zodiac);
     return false;
 }
