@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+
+form {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    width: 80%;
+    margin: 30px auto;
+}
